@@ -139,6 +139,11 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+# Container based nvim mounting 
+alias mountNvim="python3.12 /storage/kyle.meyer/neovim_for_container_stuff/neovim-lsp/src/setup_container.py"
+alias setup-host-tools="python3.12 /storage/kyle.meyer/neovim_for_container_stuff/neovim-lsp/src/setup_host_tools.py --force"
+alias verify-host-tools="python3.12 /storage/kyle.meyer/neovim_for_container_stuff/setup_host_tools.py --verify-only"
+
 # History settings
 HISTCONTROL=ignoreboth
 HISTSIZE=1000
